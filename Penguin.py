@@ -3,7 +3,7 @@ import streamlit as st
 #import plotly.express as px  # interactive charts
  
 url = 'C:/Users/dedie/Desktop/Diseño y programación de herramientas analíticas/ACTIVIDADES/penguins lter.csv'
-df = pd.read_csv(url, sep=",")
+df = pd.read_csv(url)
 #print(df.head(5))
 
 primaryColor="#6eb1ff"
